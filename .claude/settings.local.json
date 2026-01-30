@@ -10,7 +10,9 @@
       "Bash(timeout 10 npx nest:*)",
       "Bash(timeout 8 node:*)",
       "Bash(node:*)",
-      "Bash(pnpm --filter api add:*)"
+      "Bash(pnpm --filter api add:*)",
+      "Bash(pnpm:*)",
+      "Bash(PORT=abc node:*)"
     ]
   }
 }
